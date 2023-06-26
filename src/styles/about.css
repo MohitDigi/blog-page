@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+  /* font-size: 62.5%; */
+}
+body {
+  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+    margin: 3rem;
+}
+.parent-container {
+  display: flex;
+  justify-content: space-between;
+}
+.main-image-section img {
+  width: 68rem;
+  height: auto;
+}
+.info-header {
+  margin: 2rem 0;
+}
+.info-section {
+  padding: 7rem;
+}
+.about-heading {
+  margin: 5rem 0;
+}
+.about-heading h1 {
+  font-size: 7rem;
+  /* font-weight: bolder; */
+}
+.about-heading h2 {
+  font-size: 6rem;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+.about-heading h3 {
+  font-size: 5rem;
+  font-weight: 500;
+}
+.logo img {
+  width: 40rem;
+  height: 10rem;
+}
+p {
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+.signature h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.signature img {
+    margin-top: 6rem;
+  width: 20rem;
+  height: auto;
+}
+.info-footer {
+  border-top: 0.5rem solid black;
+  margin: 8rem 0;
+}
+.country {
+  display: flex;
+}
+.country img {
+  margin-left: 1rem;
+  height: 2rem;
+}
+.country h2 {
+  color: #1c75ba;
+  font-size: 3rem;
+  margin: 10rem 0;
+  margin-right: 7rem;
+}
+.info-footer > h2 {
+  color: #1c75ba;
+  font-size: 3.5rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 425px) {
+  html {
+    font-size: 20%;
+  }
+  
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 25%;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media screen and (min-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+} */
+@media screen and (min-width: 768px) and (max-width: 959px){
+  html {
+    font-size: 40%;
+  }
+  }
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 55%;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  html {
+    font-size: 62%;
+  }
+} */
